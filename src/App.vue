@@ -18,7 +18,7 @@ export default {
     };
   },
   created() {
-    setTimeout(() => (this.loading = false), 600);
+    setTimeout(() => (this.loading = false), 1000);
   }
 };
 </script>

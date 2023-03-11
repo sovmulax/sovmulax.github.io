@@ -25,11 +25,10 @@
                 </span>
               </div>
             </div>
-            <h3 class>Why Choose Us ?</h3>
+            <h3 class>Qui Suis-Je ?</h3>
             <p
               class="text-muted mb-4"
             >Nam libero tempore cum soluta as nobis est eligendi optio cumque nihile impedite quo minus id quod maxime.</p>
-            <a href="javascript: void(0);" class="btn btn-outline-primary">Learn More</a>
           </div>
         </div>
         <div class="col-lg-8">

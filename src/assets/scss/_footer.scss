@@ -3,8 +3,13 @@
 */
 
 .footer {
-    background: darken($dark, 0%);
+    background: darken($dark, 5%);
+    background-image: url('../images/img/foot.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
     padding: 70px 0 40px;
+    color: $black;
     .footer-social-icon-content {
         .footer-social-icon{
             color: rgba($white, 0.5);

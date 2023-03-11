@@ -18,22 +18,17 @@ export default {
 <template>
   <div>
     <!-- Footer Start -->
-    <section class="footer" style="background-image: url(assets/images/footer-bg.png)">
+    <section class="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="mb-5">
-              <img src="@/assets/images/logo-light.png" alt class height="24" />
+              <img src="@/assets/images/white.png" alt class height="24" />
               <p class="text-white-50 my-4 font-size-15">
                 Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum ante ipsum
                 primis in faucibus ultrices posuere cubilia.
               </p>
               <ul class="list-inline footer-social-icon-content">
-                <li class="list-inline-item mr-4">
-                  <a href="javascript: void(0);" class="footer-social-icon">
-                    <facebook-icon></facebook-icon>
-                  </a>
-                </li>
                 <li class="list-inline-item mr-4">
                   <a href="javascript: void(0);" class="footer-social-icon">
                     <twitter-icon></twitter-icon>
