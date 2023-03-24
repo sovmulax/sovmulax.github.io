@@ -165,7 +165,7 @@
 		value: 0.75,
 		emptyFill:'rgba(25, 25, 25, 1)',
 		fill: {
-			color: '#f7e626'
+			color: '#00a862'
 		}
 	}
 
@@ -177,7 +177,7 @@
 		value : 0.66,
 		emptyFill:'rgba(25, 25, 25, 1)',
 		fill: {
-			color: '#f7e626'
+			color: '#00a862'
 		}
 	});
 
@@ -185,7 +185,7 @@
 		value : 0.60,
 		emptyFill:'rgba(25, 25, 25, 1)',
 		fill: {
-			color: '#f7e626'
+			color: '#00a862'
 		}
 	});	
 	
@@ -193,7 +193,7 @@
 		value : 0.85,
 		emptyFill:'rgba(25, 25, 25, 1)',		
 		fill: {
-			color: '#f7e626'
+			color: '#00a862'
 		}
 	});	
 
