@@ -1,0 +1,168 @@
+/* Normal desktop :992px. LG Device */
+@media (min-width: 992px) and (max-width: 1200px) {
+.tilt-box {
+    bottom: 16px;
+}
+.text-extra {
+    font-size: 145px;
+}
+.margin-30 {
+    margin-top: 0px;
+}
+.timeline-detail h4 {
+    font-size: 18px;
+}
+.timeline-detail h4 span.coll-tittle {
+	font-size: 13px;
+}
+.counter-detail h4 {
+    font-size: 18px;
+}
+.author-single h4 {
+    font-size: 18px;
+}
+.author-single span {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* small mobile layout :320px. */
+@media only screen and (max-width: 767px) {
+
+
+.main-menu{
+	display:none !important;
+}
+.header-controls {
+    display: none;
+}
+.home-content p {
+    width: 96%;
+	font-size:14px;
+}
+.home-content h1 {
+    font-size: 32px;
+}
+.text-extra {
+    left: 36px;
+}
+.margin-30 {
+    margin-left: 0px;
+}
+.tilt-box {
+    right: 0px;
+}
+.about-text h2 {
+    font-size: 20px;
+}
+.section-tittle h2 span, .section-tittle h2 {
+    font-size: 28px;
+}
+.section-tittle h6 {
+    font-size: 12px;
+}
+.timeline-detail h4 span.coll-tittle {
+    font-size: 14px;
+}
+.sub-tittle h3 {
+    font-size: 22px;
+}
+.timeline-section h3 {
+    font-size: 22px;
+}
+.timeline-detail h4 {
+    font-size: 18px;
+}
+.timeline-detail p {
+    font-size: 14px;
+}
+.counter-detail span {
+    font-size: 26px;
+}
+.counter-detail h4 {
+    font-size: 18px;
+}
+.portfolio-menu button {
+    margin-bottom: 15px;
+}
+.sidebar-menu {
+    display: none;
+}
+.padd-55-top {
+    margin-top: 0px;
+}
+.preview-demo.home-content h1 {
+    font-size: 32px;
+}
+.copyright {
+    text-align: center;
+}
+.footer-icon {
+    text-align: center;
+}
+
+
+
+
+}
+
+/* Large Mobile layout:550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+.main-menu{
+	display:none !important;
+}
+.header-controls {
+    display: none;
+}
+.header-area #menuToggle {
+    right: 100px;
+}
+.home-content p {
+    width: 96%;
+}
+.home-content h1 {
+    font-size: 32px;
+}
+.text-extra {
+    left: 36px;
+}
+.item {
+    margin-bottom: 40px;
+}
+.portfolio-menu button {
+    margin-bottom: 15px;
+}
+.sidebar-menu {
+    display: none;
+}
+.preview-demo.home-content h1 {
+    font-size: 32px;
+}
+.copyright {
+    text-align: center;
+}
+.footer-icon {
+    text-align: center;
+}
+
+
+
+}
+
