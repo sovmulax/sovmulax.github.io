@@ -708,7 +708,8 @@ img {
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-timing-function: ease;
-    background-color: #00a862;
+    /* background-color: #00a862; */
+    background: linear-gradient(180deg, hsla(163, 100%, 42%, 1) 0%, hsla(155, 100%, 25%, 1) 100%);
     bottom: 0;
     display: block;
     position: fixed;
