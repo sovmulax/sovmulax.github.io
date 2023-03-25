@@ -1243,9 +1243,7 @@ button:focus {
 	-webkit-align-items: center;
 	align-items: center;
 }
-.service-slider .swiper-slide, .service-slider .swiper-wrapper {
-    cursor: url(../img/icon-move-light.png),move;
-}
+
 .service-section .swiper-slide:nth-child(2n) {
 	width: 40%;
 }
@@ -2521,9 +2519,7 @@ button:focus {
     -o-transition-delay: 2500ms;
     transition-delay: 2500ms;
 }
-.home-area .swiper-slide, .service-slider .swiper-wrapper {
-    cursor: url(../img/icon-move-light.png),move;
-}
+
 .swiper-container-vertical>.swiper-pagination-bullets {
     padding: 5px 10px;
     text-align: -webkit-right;
