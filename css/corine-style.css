@@ -1044,10 +1044,6 @@ button:focus {
     bottom: 125px;
 }
 
-.image-mask {
-	-webkit-text-fill-color: rgb(247 230 38 / 55%);
-    -webkit-background-clip: text;
-}
 .text-extra{
 	font-size: 180px;
     line-height: 170px;	
@@ -1804,7 +1800,7 @@ button:focus {
 }
 .portfolio-img {position:relative;overflow:hidden;border-radius: 5px;}
 .portfolio-img::before {
-	background: rgb(247 230 38 / 100%);
+	background: rgb(0 168 98 / 100%);
 	bottom: 0px;
 	content: "";
 	left: 0px;
@@ -1972,7 +1968,6 @@ button:focus {
 /*********************************
 	Start of contact-section
 **********************************/
-.contact-form {}
 .contact-form textarea {
 	-moz-border-bottom-colors: none;
 	-moz-border-left-colors: none;
@@ -2792,7 +2787,6 @@ button:focus {
     background: #111;
     padding: 22px 0px;
 }
-.copyright{}
 .copyright > p {
 	font-size: 15px;
 	color: #bbb;
