@@ -631,7 +631,8 @@
 																	src="https://skillicons.dev/icons?i=dart">
 																<img class="m-3" alt="icons"
 																	src="https://skillicons.dev/icons?i=python">
-																<img class="m-3" alt="icons" src="https://skillicons.dev/icons?i=c">
+																<img class="m-3" alt="icons"
+																	src="https://skillicons.dev/icons?i=c">
 																<img class="m-3" alt="icons"
 																	src="https://skillicons.dev/icons?i=linux">
 																<img class="m-3" alt="icons"
@@ -941,6 +942,26 @@
 		</div>
 	</div>
 	<!-- END CONTACT SECTION -->
+
+	<script>
+		var modal = document.querySelector(".modal");
+		var trigger = document.querySelector(".example");
+		var closeButton = document.querySelector(".close-button");
+
+		function toggleModal() {
+			modal.classList.toggle("show-modal");
+		}
+
+		function windowOnClick(event) {
+			if (event.target === modal) {
+				toggleModal();
+			}
+		}
+
+		trigger.addEventListener("click", toggleModal);
+		closeButton.addEventListener("click", toggleModal);
+		window.addEventListener("click", windowOnClick);
+	</script>
 
 	<!-- START ALL JS/SCRIPT -->
 	<script src="js/modernizr-3.6.0.min.js"></script>
