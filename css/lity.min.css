@@ -39,7 +39,7 @@
   outline: none !important;
 }
 .lity-wrap:before {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -85,8 +85,7 @@
   transition: -webkit-transform 0.3s ease;
   -o-transition: -o-transform 0.3s ease;
   transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease,
-    -o-transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease, -o-transform 0.3s ease;
 }
 .lity-loading .lity-content,
 .lity-closed .lity-content {
@@ -96,7 +95,7 @@
   transform: scale(0.8);
 }
 .lity-content:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;

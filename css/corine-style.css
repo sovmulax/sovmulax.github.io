@@ -145,7 +145,7 @@ textarea {
 
 .clearfix:before,
 .clearfix:after {
-  content: " "; /* 1 */
+  content: ' '; /* 1 */
   display: table; /* 2 */
 }
 
@@ -163,10 +163,7 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -193,11 +190,11 @@ textarea {
   }
 
   a[href]:after {
-    content: " (" attr(href) ")";
+    content: ' (' attr(href) ')';
   }
 
   abbr[title]:after {
-    content: " (" attr(title) ")";
+    content: ' (' attr(title) ')';
   }
 
   /*
@@ -205,9 +202,9 @@ textarea {
      * or use the `javascript:` pseudo protocol
      */
 
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
+  a[href^='#']:after,
+  a[href^='javascript:']:after {
+    content: '';
   }
 
   pre {
@@ -247,7 +244,7 @@ textarea {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -300,7 +297,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   margin-top: 0px;
   font-style: normal;
@@ -315,7 +312,7 @@ h6 a {
   color: inherit;
 }
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #777;
   line-height: 30px;
@@ -636,12 +633,12 @@ img {
 }
 
 .lity-close:before {
-  content: "";
+  content: '';
   width: 85%;
 }
 
 .lity-close:after {
-  content: "";
+  content: '';
 }
 
 .lity-close .btn-line {
@@ -701,11 +698,7 @@ img {
   animation-fill-mode: both;
   animation-timing-function: ease;
   /* background-color: #00a862; */
-  background: linear-gradient(
-    180deg,
-    hsla(163, 100%, 42%, 1) 0%,
-    hsla(155, 100%, 25%, 1) 100%
-  );
+  background: linear-gradient(180deg, hsla(163, 100%, 42%, 1) 0%, hsla(155, 100%, 25%, 1) 100%);
   bottom: 0;
   display: block;
   position: fixed;
@@ -763,12 +756,12 @@ img {
 }
 
 .lightbox-wrapper .lightbox-close .close-btn:before {
-  content: "";
+  content: '';
   width: 85%;
 }
 
 .lightbox-wrapper .lightbox-close .close-btn:after {
-  content: "";
+  content: '';
 }
 
 .lightbox-wrapper .lightbox-close .close-btn .btn-line {
@@ -812,9 +805,7 @@ img {
   right: 1px;
   width: 9px;
 }
-.lightbox-wrapper
-  .simplebar-track.simplebar-vertical
-  .simplebar-scrollbar:before {
+.lightbox-wrapper .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
   background: #3c3c3c;
 }
 .lightbox-wrapper .lightbox-content {
@@ -889,7 +880,7 @@ button:focus {
 }
 
 .home-content h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 46px;
   margin-bottom: 0;
@@ -938,8 +929,8 @@ button:focus {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 30px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 .home-area {
   background-position: center center;
@@ -949,7 +940,7 @@ button:focus {
 }
 .home-area:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   background-color: #111418;
@@ -1127,7 +1118,7 @@ button:focus {
 }
 .sub-tittle h3:after,
 .timeline-section h3:after {
-  content: "";
+  content: '';
   width: 100%;
   height: 10px;
   position: absolute;
@@ -1598,7 +1589,7 @@ button:focus {
 }
 .timeline-detail h4::before,
 .timeline-detail h4::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -22px;
   left: 0px;
@@ -1807,7 +1798,7 @@ button:focus {
 .portfolio-img::before {
   background: rgb(0 168 98 / 100%);
   bottom: 0px;
-  content: "";
+  content: '';
   left: 0px;
   opacity: 0;
   position: absolute;
@@ -1844,8 +1835,7 @@ button:focus {
   transition: all 0.3s ease 0s;
   z-index: 10;
   transform: translateY(50px);
-  transition: transform 0.4s linear, opacity 0.5s linear,
-    -webkit-transform 0.4s linear;
+  transition: transform 0.4s linear, opacity 0.5s linear, -webkit-transform 0.4s linear;
 }
 .portfolio-wrapper:hover .portfolio-content h4 {
   -webkit-transform: translateY(0);
@@ -1865,8 +1855,7 @@ button:focus {
   transition: all 0.3s ease 0s;
   z-index: 10;
   transform: translateY(-50px);
-  transition: transform 0.4s linear, opacity 0.5s linear,
-    -webkit-transform 0.4s linear;
+  transition: transform 0.4s linear, opacity 0.5s linear, -webkit-transform 0.4s linear;
 }
 .portfolio-wrapper:hover .portfolio-content i {
   opacity: 1;
@@ -2372,7 +2361,7 @@ button:focus {
 }
 .banner-sidebar:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   background-color: #111418;
@@ -2604,8 +2593,7 @@ button:focus {
   transition: opacity 0.7s linear, -webkit-transform 0.5s linear;
   -o-transition: transform 0.5s linear, opacity 0.7s linear;
   transition: transform 0.5s linear, opacity 0.7s linear;
-  transition: transform 0.5s linear, opacity 0.7s linear,
-    -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear, opacity 0.7s linear, -webkit-transform 0.5s linear;
 }
 .icon-menu .main-menu li:hover .tooltip-sub {
   opacity: 1;
@@ -2669,8 +2657,8 @@ button:focus {
   border-radius: 3px;
   z-index: 1;
   transform-origin: 5px 0;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    opacity 0.55s ease;
 }
 #menuToggle > span:first-child {
   transform-origin: 0 0;

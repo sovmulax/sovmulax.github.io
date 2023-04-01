@@ -54,7 +54,7 @@
 }
 .simplebar-content:after,
 .simplebar-content:before {
-  content: " ";
+  content: ' ';
   display: table;
 }
 .simplebar-placeholder {
@@ -119,7 +119,7 @@
 }
 .simplebar-scrollbar:before {
   position: absolute;
-  content: "";
+  content: '';
   background: #000;
   border-radius: 7px;
   left: 0;
@@ -157,7 +157,7 @@
   min-width: 10px;
   width: auto;
 }
-[data-simplebar-direction="rtl"] .simplebar-track.simplebar-vertical {
+[data-simplebar-direction='rtl'] .simplebar-track.simplebar-vertical {
   right: auto;
   left: 0;
 }
