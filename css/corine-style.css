@@ -1795,7 +1795,7 @@ button:focus {
   overflow: hidden;
   border-radius: 5px;
 }
-.portfolio-img::before {
+/* .portfolio-img::before {
   background: rgb(0 168 98 / 100%);
   bottom: 0px;
   content: '';
@@ -1807,7 +1807,7 @@ button:focus {
   transition: all 0.5s ease 0s;
   z-index: 9;
   width: 100%;
-}
+} */
 .portfolio-wrapper:hover .portfolio-img::before {
   opacity: 1;
 }
